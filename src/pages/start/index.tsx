@@ -13,10 +13,7 @@ export default function StartPage() {
             <p>说明：下面有90条测验项目，列出了有些人可能会有的问题，请仔细地阅读每一条，然后根据最近一星期以内，您的实际感觉，选择适合的答案。</p>
             </div>
             <Link to="/index"><Button className={styles.link}>立即测试</Button></Link>
-            <div className={styles.footer}><p>©{new Date().getFullYear()}心鸟心理服务平台版权所有</p></div>
           </div>
-
-          
       </div>
   );
 }
